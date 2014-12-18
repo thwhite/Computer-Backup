@@ -1,0 +1,35 @@
+void setup()
+{
+	size(400, 400);
+
+}
+
+void draw() 
+{
+	ellipse(50, 50, 50, 50);
+}
+
+
+
+
+
+/** THE PROBLEM*/
+
+/* 
+
+    -There are scenes. Each of them is drawn when some stimulus is applied. 
+		- One possibility is that Draw is static and is advanced only on mouseclick, and the direction mouseclick advances it depends on which button you pressed. 
+
+
+	-There's a system to keep track of which scenes have been displayed.
+
+
+
+	-There are three buttons, and when you press them they move you to another scene. 
+
+
+
+	-In the section for the scene declaration, should probably declare all the scvnes first, then actually put them into action. 
+
+
+*/			
